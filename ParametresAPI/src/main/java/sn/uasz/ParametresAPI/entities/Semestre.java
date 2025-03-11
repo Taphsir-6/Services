@@ -13,6 +13,6 @@ import lombok.*;
 @ToString
 public class Semestre {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
     private String nom;
 }

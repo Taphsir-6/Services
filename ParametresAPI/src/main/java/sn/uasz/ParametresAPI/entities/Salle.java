@@ -15,8 +15,12 @@ public class Salle {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nom;
-    private String type;
-    private String capacite;
+    private String typeSalle;
+    private String nbrePlaces;
+    private String batiments;
+    private boolean climatisation;
+    private String commentaire;
+    private boolean activer;
 
     private String createby;
     private String createat;
